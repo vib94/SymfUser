@@ -1,0 +1,18 @@
+{
+    "name": "vib94/SymfUser",
+    "description": "User bundle for Symfony",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Vincent Baron"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vib\\SymfUser\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
