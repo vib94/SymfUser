@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    test
+    {% form_theme form 'bootstrap_3_layout.html.twig' _self %}
+        {{ form_start(form, {'method': 'POST'}) }}
+            {{ form_row(form._token) }}
+            <div class="">
+                <button type="submit" name="login" class="btn btn-primary btn" value="Connexion">Connexion</button>
+            </div>
+        {{ form_end(form, {'render_rest': true}) }}
+{% endblock %}

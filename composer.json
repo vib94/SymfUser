@@ -6,13 +6,13 @@
         {
             "name": "Vincent Baron"
         }
-    ],
+    ],   
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.0"
+    },
     "autoload": {
         "psr-4": {
-            "Vib\\SymfUser\\": ""
-        },
-        "exclude-from-classmap": [
-            "/Tests/"
-        ]
+            "Vib\\SymfUser\\": "src/"
+        }
     }
 }
